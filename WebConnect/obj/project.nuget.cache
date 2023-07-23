@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RmDAuMMwZB3HdyRNu0oCk+iIYMuHWNpCgVdu9Woj/4zRVBjex7t9+NqmCgs7fWubka1W4zIoOTB5mn1kWgOr3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phmel\\source\\repos\\WebConnect\\WebConnect\\WebConnect.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phmel\\.nuget\\packages\\microsoft.web.webview2\\1.0.1823.32\\microsoft.web.webview2.1.0.1823.32.nupkg.sha512"
+  ],
+  "logs": []
+}
