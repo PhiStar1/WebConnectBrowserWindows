@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AppInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ASUSWiredOrWireless.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ASUSWRTnotworking.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BootError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="booting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ChangeOrganizationPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConnectToNAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConnectToRouter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Crashed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DebugSettingsReboot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DeleteAdminSettingsDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnterAdminPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnterCloudID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnterIPAdress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnterMyFRITZ!Adress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="EnterQuickConnectID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ErrorWhileConnectingWithSynologyQuickConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ErrorWhileLoadingThisLink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ErrorWithSourceCodeWebConnectMacro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstallAppleAirport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="InstallGoogleHome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Launcher.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Reboot.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResetSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResetSettingsnotavailable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResettingSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ResettingSettingsnotavailable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SetAsDefaultBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="settingsreseterror.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SetupOrganization.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SetupPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ShutDownWebConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SoftwareUpdateTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WebConnectAdminSoftware.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WebConnectRecoveryTool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="WebViewNotInitializedError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
