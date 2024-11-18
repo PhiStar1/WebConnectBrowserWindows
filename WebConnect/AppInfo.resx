@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Allgemein:
+WebConnect ist ein Browser
+App: WebConnect
+Programmierer: PhilConnected (Phileas Melchert)
+Softwareversion: 2024.11.18
+Komponentenversionen:
+FrontEnd-Version: 1.1
+
+BackEnd: WebView2 (Microsoft.Web.WebView2.WinForms)
+BackEnd-Version: 130.0.2849.56
+AutoLaunch Protocols Preregistration-Version: 1.0.0.8
+Microsoft CRLSet-Version: 6498.2023.8.1
+hyphens-data-version: 101.0.4906.0
+OriginTrials-Version: 0.0.1.4
+Microsoft PKI Metadata-Version: 14.0.0.1
+Snapshots-version: 129.0.2792.89
+Speech Recognition-version: 1.15.0.1
+Subresource Filter-Version: 10.34.0.55
+trustToken-Version: 2024.10.11.1
+SQLite-Version: 3
+
+JSON Framework-Version: 13.03
+JSON Framework: NewtonsoftJson
+
+Microsoft.CodeAnalysis-Version: 4.11.0
+Microsoft.CodeAnalysis.VisualBasic-Version: 4.11.0
+
+System.Threading.Channels-Version: 8.0.0
+
+Microsoft.NETCore.Platforms-Version: 1.1.1
+Microsoft.NETCore.Targets-Version: 1.1.0
+System.IO-Version: 4.3.0
+System.Runtime-Version: 4.3.0
+System.Text.Encoding-Version: 4.3.0
+System.Threading.Tasks-Version: 4.3.0
+
+Microsoft.Win32-Version: 2.0.1
+
+System.Collections-Version: 4.3.0
+System.Diagnostics.Debug-Version: 4.3.0
+System.Globalization-Version: 4.3.0
+System.Linq-Version: 4.3.0
+System.Reflection-Version: 4.3.0
+System.Reflection.Primitives-Version: 4.3.0
+System.Resources.ResourceManager-Version: 4.3.0
+System.Runtime.Extensions-Version: 4.3.0
+
+System.Runtime.Handles-Version: 4.3.0
+System.Runtime.InteropServices-Version: 4.3.0
+
+runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.native.System-Version: 4.3.0
+runtime.native.System.Net.Http-Version: 4.3.0
+runtime.native.System.Security.Cryptography.Apple-Version: 4.3.0
+runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-Version: 4.3.0
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+System.Collections.Concurrent-Version: 4.3.0
+System.Diagnostics.Tracing-Version: 4.3.0
+System.Globalization.Calendars-Version: 4.3.0
+System.IO.FileSystem-Version: 4.3.0
+System.IO.FileSystem.Primitives-Version: 4.3.0
+System.Runtime.Numerics-Version: 4.3.0
+System.Security.Cryptography.Algorithms-Version: 4.3.0
+System.Security.Cryptography.Cng-Version: 4.3.0
+System.Security.Cryptography.Csp-Version: 4.3.0
+System.Security.Cryptography.Encoding-Version: 4.3.0
+System.Security.Cryptography.OpenSsl-Version: 4.3.0
+System.Security.Cryptography.Primitives-Version: 4.3.0
+System.Security.Cryptography.X509Certificates-Version: 4.3.2
+System.Threading-Version: 4.3.0
+
+System.Diagnostics.DiagnosticSource-Version: 4.3.0
+System.Globalization.Extensions-Version: 4.3.0
+System.Net.Http-Version: 4.3.4
+System.Net.Primitives-Version: 4.3.0
+
+System.Reflection.Emit-Version: 4.7.0
+
+Version der Wiederherstellungssoftware: 1.0
+Version der Adminsoftware: 1.0
+</value>
+  </data>
+</root>
