@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Changelog.Text" xml:space="preserve">
+    <value>Changelog
+v2024.12.27
+- Updated Components:
+  - Frontend: v2.0 --&gt; v3.0
+    - NEW FUNCTIONS:
+      - MAGIC AI LINK
+
+        WHAT IS MAGIC AI LINK?
+        WITH MAGIC AI LINK, YOU CAN EASILY AND FAST ACCESS YOUR PREFERED AI CHATBOT.
+          THE CHATBOT WILL BE DOCKED AT THE RIGHT SIDE OF THE WINDOW, WHEN YOU OPEN IT.
+             - A button has been added to toggle an AI chatbot
+             - The hotkey "CTRL + ." does also toggle Magic AI Link
+             - You can program this Button by going to WebConnect--&gt;Settings--&gt;Magic AI Link. Supported Chatbots: 
+               - Google Gemini
+               - Microsoft Copilot
+               - ChatGPT
+    - BUG FIXES
+      - A bug has been fixed that the following hotkeys are not working in other apps, when WebConnect is running:
+        - ALT + E
+        - CTRL + D
+        - CTRL + E
+        - CTRL + K
+        - CTRL + L
+        - ALT + F
+        - CTRL + N
+        - CTRL + T
+        - CTRL + W
+        - ALT + S
+        - CTRL + TAB
+        - CTRL + SHIFT + TAB
+      - A bug has been fixed that the button "Close tab" at the menu toolbar is not working
+v2024.12.13
+- A bug has been fixed that could cause the WebConnect Installer/Updater to be detected as malware
+v2024.12.11
+- Updated Components:
+  - Frontend
+    - A bug has been fixed when setup a password for the mdm (mobile device management) mode, because the password setup dialog does not show correctly.
+     You can enable/disable the mdm (mobile device management) mode by clicking WebConnect/Settings/Software update/Click fast on the software version until a button "WebConnect Admin Software" appears.
+     - A bug has been fixed when showing the WebConnect Admin Software, because the WebConnect Admin Software does not show correctly, when the tab "designer values" is opened.
+     - A bug has been fixed when you press the ok button on a dialog that says that a link can't be opened.
+     - A bug has been fixed when you reboot the application, the mdm (moblie device management) settings will be cleared.
+     - A bug has been fixed when you open the browser settings, if you set the default search engine to Google, the default search engine will set to Bing.
+     - A bug has been fixed when you close a tab, the WebView instance, that startet with the tab, is not terminated and it is running at background.
+     - Adding hotkeys for quitting some menus
+     - Adding hotkeys for browser navigation
+     - A context menu has been added that can close tabs for devices without a middle mouse button
+     - Better debug output for developers
+  - Microsoft Edge WebView: 130.0.2849.39 --&gt; 131.0.2903.86
+     - Promotions
+        - Control whether the screen capture UI is displayed (ScreenCaptureStarting event)
+        - A new ScreenCaptureStarting event has been added. This event is triggered whenever 
+          the webView2 and/or iframe corresponding to the CoreWebView2Frame (or one of its 
+          successor iframes) requests permission to use the screen capture API before displaying 
+          the UI. The app can then block the display of the UI or allow the display of the UI.
+      - Bug fixes
+        - Runtime only
+          - Allow the Download dialog box to receive initial focus on startup.
+
+v2024.11.07
+- Updated Components:
+  - Frontend
+    - Adjustments to Error Messages while booting WebConnect when WebConnect system files 
+      are missing or damaged
+    - Correction of version indicators of various WebConnect components
+    - Correction of the software version changelog
+  - Microsoft Edge WebView: 130.0.1823.32 --&gt; 130.0.849.56
+    - Features
+      - Introduced an option to cancel the initial navigation in WebView2, to improve startup performance. 
+      - This change is disabled by default, and can be enabled by using the 
+        msWebView2CancelInitialNavigation feature flag.
+      - Introduced the feature flag msWebView2EnableDownloadContentInWebResourceResponseReceived, 
+        an an Experimental feature (rather than as a Stable feature). When this flag is enabled, this allows responses 
+        of navigations that become downloads to be available in WebResourceResponseReceived.
+      - Added support for C#/WinRT .NET 6+.
+    - Runtime and SDK
+      - Fixed a crash when .NET host object async methods return a null result
+      - Re-enabled the default behavior of SetUserAgent: by default, SetUserAgent is effective for cross-origin iframes.
+    - Runtime-only
+      - Fixed a WebView2 memory leak issue when the window is closed.
+      - Fixed an issue where ignoreMemberNotFoundError wasn't working for .NET objects
+      - Now returns a proper error code when CreateSharedBuffer is called with 0 buffer size. 
+      - Fixed an activation issue for the caret browsing dialog.
+      - Fixed an issue where the WebView2 Visual Hosting CursorChanged event wasn't firing for custom cursors.
+      - Fixed a bug where if the LaunchingExternalURIScheme event handler is attached, 
+        and the always remember checkbox is enabled, and the user selects this checkbox, the dialog is incorrectly displayed again.
+      - Fixed an issue where text edit controls in visual hosting would duplicate IME input when losing and then regaining focus.
+      - Fixed an issue where full-trust UWP apps couldn't display owned windows.
+      - Fixed a bug in owned-window activation logic for visual hosting.
+      - Disabled BreakoutBoxPreferCaptureTimestampInVideoFrame for WebView2 TextureStream.
+      - Fixed a regression where the WindowCloseRequested event only fires for first window.close() call.
+      - Fixed a regression where typed arrays in WinRT JavaScript projection could not be handled as IDispatch in the host.
+      ­- Fixed a bug where the autofill popup dismisses immediately and causes a focus change.
+      - Fixed a bug where WebView2 fails to load because of AppPolicyGetWindowingModel.
+      - Fixed an issue where the app window couldn't be controlled via system commands 
+        (such as Alt+F4 or Alt+Spacebar) when the focus was in WebView2 for Visual hosting mode.
+      - Fixed a bug in WebView2 UWP where the Find bar couldn't be clicked into from the host app.
+      - Fixed a regression where WebResourceRequested events crash on certain sites.
+      - Enabled the interactive dragging feature by default. See edge-webview-interactive-dragging in WebView2 browser flags.
+      - Disabled IsolateSandboxedIframes for WebView2.
+      - Fixed an issue where WebView creation fails when multiple instances are launched at the same time.
+      - Fixed a bug in WinRT JavaScript projection where caching existing properties in objects whose name 
+        contains Proxy or Function caused an error due to name collision.
+      - Fixed a bug where the WebView2 control became the wrong size after disconnecting and reconnecting a monitor.
+      - Fixed an issue where "mailto:" links leave an untitled popup window open, instead of automatically closing the popup window.
+      - Fixed an issue where focusing on a WebView2 control in WinAppSDK with the Windows "Scroll inactive windows" setting disabled 
+        caused scrolling to fail.
+      - Blocked edge://wallet in WebView2.
+      - Cleared the environment variable for default background color in .NET WebView2 controls after the controller has finished creation.
+      - Enabled accessibility support for Webview2 in visual hosting mode.
+      - Fixed a bug with removing a "web resource requested" filter for multiple sources when one of them is Document.
+      - Fixed a regression where DataList was not visible in WinUI or in other visually hosted WebView2 instances.
+      - Fixed a Download dialog focus issue when pressing Tab or Shift+Tab to switch into the Webview2 control.
+    - SDK-only
+      - Fixed an issue in the SDK causing erroneous &lt;Platform&gt; values in the .NET project platforms list.
+      - Adding the missing WinRT CoreWebView2Notification.VibrationPattern API. This WinRT API can 
+        be combined with the stable notification API promotion release notes; see "Web Notification" and 
+        NotificationReceived for WinRT, immediately above.
+      - Fixed an issue where KeyDown events from the WinForms WebView2 control didn't include the 
+        correct ModifierKeys information.
+      - Fixed x86 for WinRT C# projection.
+      - Made CreateCoreWebView2Environment and GetAvailableCoreWebView2BrowserVersionString 
+        more robust against potential race condition during Runtime update.
+      - Fixed x86 for WinRT C# projection.
+      - C# WinRT projection now works on UWP.
+      - Fixed an issue to ensure that GeneratedFilesDir no longer appears in Visual Studio for C# WinRT projection.
+      - Fixed an SDK dependency for .NET projects.
+      - Fixed a compatibility issue when calling GetAvailableBrowserVersionString() with an older WebView2Loader.dll.
+      - Fixed issues when compiling wv2winrt-generated code with the cpp20 and /permissive- options.
+      - Added the .NET 8 TargetFramework for C# WinRT, enabled AOT (ahead-of-time) compatibility, and disabled 
+        runtime marshalling.
+      - Fixed an SDK dependency for .NET projects.
+      - Fixed Arm64 incompatibility with WindowsAppSDK 1.6.
+      - Removed extra WebView2Loader.dll in WinAppSDK case.
+      - Using CoreWebView2.AddWebResourceRequestedFilter without a 
+        CoreWebView2WebResourceRequestSourceKinds parameter is now deprecated. 
+        See the .NET CoreWebView2.AddWebResourceRequestedFilter Method.
+      - Using CoreWebView2.AddWebResourceRequestedFilter without a 
+        CoreWebView2WebResourceRequestSourceKinds parameter is now 
+        deprecated. See the .NET CoreWebView2.AddWebResourceRequestedFilter Method.
+      - Added the .NET 8 TargetFramework for C# WinRT, enabled AOT (ahead-of-time) 
+        compatibility, and disabled runtime marshalling.
+    - Promotions
+      - Support for the Fluent Style Overlay Scrollbar.
+      - Updated the WebMessageObjects API to allow injecting DOM objects into WebView2 content that's constructed via the app, 
+        and via the CoreWebView2.PostWebMessage API in the other direction. Added a new web object type to represent a file 
+        system handle that can be posted to the web content to provide it with filesystem access.
+      - Added SaveAs APIs that allow you to programmatically perform the Save as operation. You can use these APIs to 
+        block the default Save as dialog, and then either save silently, or build your own UI for Save as. These APIs pertain 
+        only to the Save as dialog, not the Download dialog, which continues to use the existing Download APIs.
+      - Added support for Web Notification, for non-persistent notifications. The NotificationReceived event for 
+        CoreWebView2 controls web notification handling, allowing customization or suppression by the host app. 
+        Unhandled notifications default to WebView2's UI.
+      - Updated the WebMessageObjects API to allow injecting DOM objects into WebView2 content that's 
+      - constructed via the app, and via the CoreWebView2.PostWebMessage API in the other direction. 
+      - Added a new web object type (CoreWebView2FileSystemHandle) to represent a file system handle 
+      - that can be posted to the web content to provide it with filesystem access.
+      - Added support for Web Notification, for non-persistent notifications. 
+        The NotificationReceived event for CoreWebView2 controls web notification handling, allowing 
+        customization or suppression by the host app. Unhandled notifications default to WebView2's UI.
+      - Added SaveAs APIs that allow you to programmatically perform the Save as operation. You can 
+        use these APIs to block the default Save as dialog, and then either save silently, or build your own 
+        UI for Save as. These APIs pertain only to the Save as dialog, not the Download dialog, which 
+        continues to use the existing Download APIs.
+      - Added a new ScreenCaptureStarting event. This event is raised whenever the WebView2 
+        and/or iframe that corresponds to the CoreWebView2Frame (or to any of its descendant iframes) 
+        requests permission to use the Screen Capture API before the UI is shown. The app can then 
+        block the UI from being displayed, or allow the UI to be displayed.
+      - Added a new SaveFileSecurityCheckStarting event. Your app can register a handler on this event 
+        to get the file path, filename extension, and document origin URI information. You can then 
+        apply your own rules to do actions such as the following:
+        - Allow saving the file without presenting a default security-warning UI about the file-type policy.
+        - Cancel the saving.
+        - Create your own UI to manage runtime file-type policies.
+    - APIs
+      - Added a new SaveFileSecurityCheckStarting event. As a developer, you can register a handler on this event to get the file path, 
+        filename extension, and document origin URI information. Then you can apply your own rules to do actions such as the following:
+        - Allow saving the file without presenting a default security-warning UI about the file-type policy.
+        - Cancel the saving.
+        - Create your own UI to manage runtime file-type policies.
+      - Added a new ScreenCaptureStarting event. This event is raised whenever the WebView2 and/or iframe that corresponds to the 
+        CoreWebView2Frame (or to any of its descendant iframes) requests permission to use the Screen Capture API before the UI is 
+        shown. As a developer, you can then choose to block the UI from being displayed, or allow the UI to be displayed.
+      - Added a new GetComICoreWebView2 method to the CoreWebView2 .NET class that enables you to convert a 
+        CoreWebView2 between .NET and COM. Added a new WinRT interface that enables you to convert a CoreWebView2 
+        between WinRT and COM. This allows you to interoperate between libraries that are written in different languages.
+      - Added new Throttling Controls APIs which allows for efficient resource management by allowing you to throttle 
+      - JavaScript timers. This is helpful in scenarios where a WebView2 control needs to remain visible, but needs to 
+      - consume fewer resources (such as when the user isn't interacting with the content). These Throttling Controls 
+      - APIs allow you to:
+        - Customize script timers (setTimeout and setInterval) throttling under different page states (foreground, 
+          background, and background with intensive throttling).
+        - Throttle script timers in select hosted iframes.
+      - Added a new RestartRequested event. The RestartRequested event is raised whenever WebView2 needs 
+        to restart to apply updates or configuration changes. You can use this API to detect when WebView2 
+        needs to restart, and take appropriate actions. The Priority property of the RestartRequested event 
+        arguments indicates the priority of the restart request:
+        - High indicates that the app should prompt users to restart as soon as possible.
+        - Normal indicates that the app should remind users to restart, on a best-effort basis.
+  - Microsoft PKI Metadata version: 13.0.0.0 --&gt; 14.0.0.1
+  - Snapshots version: 126.0.2592.113 --&gt; 129.0.2792.89
+  - Subresource Filter version: 10.34.0.54 --&gt;  10.34.0.55
+  - trustToken version: 2024.8.165 --&gt; 2024.10.1
+  - System.Threading.Channels version: 7.0.0  --&gt; 8.0.0
+v2024.11.03
+- Frontend
+  - A bug with the software update tool has been fixed: 
+    When you click "Search for software updates", it says "Update for WebConnect available and ready to download,
+    but the newest version is already installed on your device.
+
+v. 2024.09.01
+- Erste Softwareversion</value>
+  </data>
+</root>
