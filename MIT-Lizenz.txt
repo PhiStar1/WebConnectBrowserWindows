@@ -1,0 +1,59 @@
+MIT-Lizenz
+
+Copyright (c) 2024 PhilConnected
+
+Hiermit wird unentgeltlich jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, uneingeschränkt mit der Software zu verfahren, einschließlich und ohne Einschränkung der Rechte, die Software zu nutzen, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu verbreiten, unterzulizenzieren und/oder zu verkaufen, und Personen, denen die Software zur Verfügung gestellt wird, dies zu erlauben, unter den folgenden Bedingungen:
+
+Der obige Urheberrechtshinweis und dieser Erlaubnishinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
+
+DIE SOFTWARE WIRD "WIE BESEHEN" BEREITGESTELLT, OHNE JEGLICHE GARANTIE, AUSDRÜCKLICH ODER IMPLIZIT, EINSCHLIESSLICH ABER NICHT BESCHRÄNKT AUF DIE GARANTIEN DER MARKTFÄHIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR JEGLICHEN ANSPRUCH, SCHÄDEN ODER SONSTIGE VERPFLICHTUNGEN HAFTBAR, OB AUS EINEM VERTRAG, EINER UNERLAUBTEN HANDLUNG ODER ANDERWEITIG, DIE AUS DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN VORGÄNGEN IN DER SOFTWARE ENTSTEHEN.
+
+MIT license
+
+Copyright (c) 2024 PhilConnected
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS” WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING OUT OF THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Licencia MIT
+
+Copyright (c) 2024 PhilConnected
+
+Por la presente se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el «Software»), para comerciar con el Software sin restricciones, incluyendo sin limitación los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o venta del Software, y para permitir a las personas a las que se proporcione el Software que lo hagan, sujeto a las siguientes condiciones:
+
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
+
+EL SOFTWARE SE PROPORCIONA «TAL CUAL», SIN GARANTÍAS DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN DETERMINADO Y NO INFRACCIÓN. EN NINGÚN CASO LOS AUTORES O LOS TITULARES DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑO U OTRA RESPONSABILIDAD, YA SEA CONTRACTUAL, EXTRACONTRACTUAL O DE OTRO TIPO, DERIVADA DEL SOFTWARE O DEL USO U OTRAS OPERACIONES CON EL SOFTWARE.
+
+Licence MIT
+
+Droit d'auteur (c) 2024 PhilConnected
+
+Par la présente, la permission est accordée gratuitement à toute personne qui reçoit une copie de ce logiciel et des fichiers de documentation associés (le « logiciel ») de procéder sans restriction avec le logiciel, y compris et sans limitation des droits d'utiliser, de copier, de modifier, de fusionner, de publier, de distribuer, de sous-licencier et/ou de vendre le logiciel, et d'autoriser les personnes à qui le logiciel est fourni à le faire, sous réserve des conditions suivantes :
+
+L'avis de droit d'auteur ci-dessus et cet avis d'autorisation doivent figurer sur toutes les copies ou parties substantielles du logiciel.
+
+LE LOGICIEL EST FOURNI « EN L'ÉTAT », SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. EN AUCUN CAS LES AUTEURS OU LES DÉTENTEURS DES DROITS D'AUTEUR NE SERONT TENUS RESPONSABLES DE TOUTE RÉCLAMATION, DOMMAGE OU AUTRE OBLIGATION, CONTRACTUELLE, DÉLICTUELLE OU AUTRE, DÉCOULANT DU LOGICIEL OU DE SON UTILISATION OU DE TOUTE AUTRE OPÉRATION EFFECTUÉE DANS LE LOGICIEL.
+
+Licenza MIT
+
+Copyright (c) 2024 PhilConnected
+
+Con la presente si concede il permesso, a titolo gratuito, a chiunque ottenga una copia di questo software e dei file di documentazione associati (il “Software”), di trattare il Software senza alcuna restrizione, compresi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, concedere in sublicenza e/o vendere il Software, e di permettere alle persone a cui il Software viene fornito di farlo, alle seguenti condizioni:
+
+L'avviso di copyright di cui sopra e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software.
+
+IL SOFTWARE VIENE FORNITO “COSÌ COM'È” SENZA ALCUN TIPO DI GARANZIA, ESPLICITA O IMPLICITA, INCLUSE, MA NON SOLO, LE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ PER UNO SCOPO PARTICOLARE E NON VIOLAZIONE. IN NESSUN CASO GLI AUTORI O I DETENTORI DEI DIRITTI D'AUTORE SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ, PER CONTRATTO, ILLECITO O ALTRO, DERIVANTE DAL SOFTWARE O DALL'USO O DA ALTRI RAPPORTI CON IL SOFTWARE.
+
+MIT lisansı
+
+Telif Hakkı (c) 2024 PhilConnected
+
+Bu yazılımın ve ilgili dokümantasyon dosyalarının (“Yazılım”) bir kopyasını edinen herhangi bir kişiye, Yazılımı kullanma, kopyalama, değiştirme, birleştirme, yayınlama, dağıtma, alt lisans verme ve/veya satma hakları dahil ancak bunlarla sınırlı olmamak üzere, kısıtlama olmaksızın Yazılımla ilgilenme ve Yazılımın verildiği kişilere aşağıdaki koşullara tabi olarak bunu yapma izni ücretsiz olarak verilmektedir:
+
+Yukarıdaki telif hakkı bildirimi ve bu izin bildirimi, Yazılımın tüm kopyalarına veya önemli bölümlerine dahil edilecektir.
+
+YAZILIM, TİCARİ ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE AÇIK VEYA ZIMNİ HİÇBİR GARANTİ VERİLMEKSİZİN “OLDUĞU GİBİ” SUNULMAKTADIR. YAZARLAR VEYA TELİF HAKKI SAHİPLERİ HİÇBİR DURUMDA YAZILIMDAN VEYA YAZILIMIN KULLANIMINDAN VEYA DİĞER İŞLEMLERİNDEN KAYNAKLANAN SÖZLEŞME, HAKSIZ FİİL VEYA BAŞKA BİR ŞEKİLDE HERHANGİ BİR İDDİA, ZARAR VEYA BAŞKA BİR YÜKÜMLÜLÜKTEN SORUMLU TUTULAMAZ.

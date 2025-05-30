@@ -1,0 +1,199 @@
+'MainWindowWindowAccessibleRole
+If My.Settings.MainWindowWindowAccessibleRole = "Default" Then
+    AccessibleRole = AccessibleRole.Default
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "None" Then
+    AccessibleRole = AccessibleRole.None
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "TitleBar" Then
+    AccessibleRole = AccessibleRole.TitleBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "MenuBar" Then
+    AccessibleRole = AccessibleRole.MenuBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ScrollBar" Then
+    AccessibleRole = AccessibleRole.ScrollBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Grip" Then
+    AccessibleRole = AccessibleRole.Grip
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Sound" Then
+    AccessibleRole = AccessibleRole.Sound
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Cursor" Then
+    AccessibleRole = AccessibleRole.Cursor
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Caret" Then
+    AccessibleRole = AccessibleRole.Caret
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Alert" Then
+    AccessibleRole = AccessibleRole.Alert
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Window" Then
+    AccessibleRole = AccessibleRole.Window
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Client" Then
+    AccessibleRole = AccessibleRole.Client
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "MenuPopup" Then
+    AccessibleRole = AccessibleRole.MenuPopup
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "MenuItem" Then
+    AccessibleRole = AccessibleRole.MenuItem
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ToolTip" Then
+    AccessibleRole = AccessibleRole.ToolTip
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Application" Then
+    AccessibleRole = AccessibleRole.Application
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Document" Then
+    AccessibleRole = AccessibleRole.Document
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Pane" Then
+    AccessibleRole = AccessibleRole.Pane
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Chart" Then
+    AccessibleRole = AccessibleRole.Chart
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Dialog" Then
+    AccessibleRole = AccessibleRole.Dialog
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Border" Then
+    AccessibleRole = AccessibleRole.Border
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Grouping" Then
+    AccessibleRole = AccessibleRole.Grouping
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Seperator" Then
+    AccessibleRole = AccessibleRole.Separator
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ToolBar" Then
+    AccessibleRole = AccessibleRole.ToolBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "StatusBar" Then
+    AccessibleRole = AccessibleRole.StatusBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Table" Then
+    AccessibleRole = AccessibleRole.Table
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ColumnHeader" Then
+    AccessibleRole = AccessibleRole.ColumnHeader
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "RowHeader" Then
+    AccessibleRole = AccessibleRole.RowHeader
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Column" Then
+    AccessibleRole = AccessibleRole.Column
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Row" Then
+    AccessibleRole = AccessibleRole.Row
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Cell" Then
+    AccessibleRole = AccessibleRole.Cell
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Link" Then
+    AccessibleRole = AccessibleRole.Link
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "HelpBalloon" Then
+    AccessibleRole = AccessibleRole.HelpBalloon
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Character" Then
+    AccessibleRole = AccessibleRole.Character
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "List" Then
+    AccessibleRole = AccessibleRole.List
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ListItem" Then
+    AccessibleRole = AccessibleRole.ListItem
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Outline" Then
+    AccessibleRole = AccessibleRole.Outline
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "OutlineItem" Then
+    AccessibleRole = AccessibleRole.OutlineItem
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "PageTab" Then
+    AccessibleRole = AccessibleRole.PageTab
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "PropertyPage" Then
+    AccessibleRole = AccessibleRole.PropertyPage
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Indicator" Then
+    AccessibleRole = AccessibleRole.Indicator
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Graphic" Then
+    AccessibleRole = AccessibleRole.Graphic
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "StaticText" Then
+    AccessibleRole = AccessibleRole.StaticText
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Text" Then
+    AccessibleRole = AccessibleRole.Text
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "PushButton" Then
+    AccessibleRole = AccessibleRole.PushButton
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "CheckButton" Then
+    AccessibleRole = AccessibleRole.CheckButton
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "RadioButton" Then
+    AccessibleRole = AccessibleRole.RadioButton
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ComboBox" Then
+    AccessibleRole = AccessibleRole.ComboBox
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "DropList" Then
+    AccessibleRole = AccessibleRole.DropList
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ProgressBar" Then
+    AccessibleRole = AccessibleRole.ProgressBar
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Dial" Then
+    AccessibleRole = AccessibleRole.Dial
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "HotkeyField" Then
+    AccessibleRole = AccessibleRole.HotkeyField
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Slider" Then
+    AccessibleRole = AccessibleRole.Slider
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "SpinButton" Then
+    AccessibleRole = AccessibleRole.SpinButton
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Diagram" Then
+    AccessibleRole = AccessibleRole.Diagram
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Animation" Then
+    AccessibleRole = AccessibleRole.Animation
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Equation" Then
+    AccessibleRole = AccessibleRole.Equation
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ButtonDropDown" Then
+    AccessibleRole = AccessibleRole.ButtonDropDown
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ButtonMenu" Then
+    AccessibleRole = AccessibleRole.ButtonMenu
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "ButtonDropDownGrid" Then
+    AccessibleRole = AccessibleRole.ButtonDropDownGrid
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "WhiteSpace" Then
+    AccessibleRole = AccessibleRole.WhiteSpace
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "PageTabList" Then
+    AccessibleRole = AccessibleRole.PageTabList
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "Clock" Then
+    AccessibleRole = AccessibleRole.Clock
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "SplitButton" Then
+    AccessibleRole = AccessibleRole.SplitButton
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "IpAdress" Then
+    AccessibleRole = AccessibleRole.IpAddress
+End If
+If My.Settings.MainWindowWindowAccessibleRole = "OutlineButton" Then
+    AccessibleRole = AccessibleRole.OutlineButton
+End If

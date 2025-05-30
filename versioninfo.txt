@@ -1,0 +1,117 @@
+Allgemein:
+WebConnect ist ein Browser
+App: WebConnect
+Programmierer: PhilConnected (Phileas Melchert)
+Softwareversion: 2025.02.16
+
+Komponentenversionen:
+FrontEnd-Version: 3.1
+
+BackEnd: WebView2 (Microsoft.Web.WebView2.WinForms)
+BackEnd-Version: 133.0.3065.69
+Microsoft.Web.WebView2.Core-Version: 1.0.3065.39
+Microsoft.Web.WebView2.WinForms-Version: 1.0.3065.39
+Microsoft.Web.WebView2.Wpf-Version: 1.0.3065.39
+
+AutoLaunch Protocols Preregistration-Version: 1.0.0.8
+Microsoft CRLSet-Version: 6498.2024.12.2
+hyphens-data-version: 101.0.4906.0
+OriginTrials-Version: 0.0.1.7
+Microsoft PKI Metadata-Version: 14.0.0.1
+Speech Recognition-version: 1.15.0.1
+Subresource Filter-Version: 10.34.0.55
+trustToken-Version: 2024.10.11.1
+SQLite-Version: 3
+
+JSON Framework-Version: 13.03.27908
+JSON Framework: NewtonsoftJson
+
+Humanizer-Version: 2.14.1.48190
+
+Microsoft.Bcl.AsyncInterfaces-Version: 8.0.23.53103
+Microsoft.CodeAnalysis-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.VisualBasic-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.VisualBasic.Workspaces-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.Common-Version: 4.12.0
+Microsoft.CodeAnalysis.CSharp-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.CSharp.Workspaces-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.Workspaces.Common-Version: 4.12.0
+Microsoft.CodeAnalysis.Workspaces-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.CSharp.resources-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.CSharp.Workspaces.resources-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.resources-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.VisualBasic.resources-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources-Version: 4.1200.24.57207
+Microsoft.CodeAnalysis.Workspaces.resources-Version: 4.1200.24.57207
+System.Threading.Channels-Version: 9.0.2
+
+Microsoft.NETCore.Platforms-Version: 1.1.1
+Microsoft.NETCore.Targets-Version: 1.1.0
+System.IO-Version: 4.3.0
+System.Runtime-Version: 4.3.0
+System.Text.Encoding-Version: 4.3.0
+System.Threading.Tasks-Version: 4.3.0
+
+Microsoft.Win32-Version: 2.0.1
+
+System.Collections-Version: 4.3.0
+System.Diagnostics.Debug-Version: 4.3.0
+System.Globalization-Version: 4.3.0
+System.Linq-Version: 4.3.0
+System.Reflection-Version: 4.3.0
+System.Reflection.Primitives-Version: 4.3.0
+System.Resources.ResourceManager-Version: 4.3.0
+System.Runtime.Extensions-Version: 4.3.0
+System.Collections.Immutable-Version: 8.0.23.53103
+System.Composition.AttributedModel-Version: 8.0.23.53103
+System.Composition.Convention-Version: 8.0.23.53103
+System.Composition.Hosting-Version: 8.0.23.53103
+System.Composition.Runtime-Version: 8.0.23.53103
+System.Composition.TypedParts-Version: 8.0.23.53103
+System.IO.Pipelines-Version: 8.0.23.53103
+System.Reflection.Metadata-Version: 8.0.23.53103
+System.Text.Encoding.CodePages-Version: 7.0.22.51805
+System.Threading.Channels-Version: 9.0.24.52809
+System.Runtime.Handles-Version: 4.3.0
+System.Runtime.InteropServices-Version: 4.3.0
+runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.native.System-Version: 4.3.0
+runtime.native.System.Net.Http-Version: 4.3.0
+runtime.native.System.Security.Cryptography.Apple-Version: 4.3.0
+runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple-Version: 4.3.0
+runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl-Version: 4.3.2
+System.Collections.Concurrent-Version: 4.3.0
+System.Diagnostics.Tracing-Version: 4.3.0
+System.Globalization.Calendars-Version: 4.3.0
+System.IO.FileSystem-Version: 4.3.0
+System.IO.FileSystem.Primitives-Version: 4.3.0
+System.Runtime.Numerics-Version: 4.3.0
+System.Security.Cryptography.Algorithms-Version: 4.3.0
+System.Security.Cryptography.Cng-Version: 4.3.0
+System.Security.Cryptography.Csp-Version: 4.3.0
+System.Security.Cryptography.Encoding-Version: 4.3.0
+System.Security.Cryptography.OpenSsl-Version: 4.3.0
+System.Security.Cryptography.Primitives-Version: 4.3.0
+System.Security.Cryptography.X509Certificates-Version: 4.3.2
+System.Threading-Version: 4.3.0
+
+System.Diagnostics.DiagnosticSource-Version: 4.3.0
+System.Globalization.Extensions-Version: 4.3.0
+System.Net.Http-Version: 4.3.4
+System.Net.Primitives-Version: 4.3.0
+
+System.Reflection.Emit-Version: 4.7.0
+
+Version der Wiederherstellungssoftware: 1.0
+Version der Adminsoftware: 1.0
+Version des Bootloaders: 2.1
+

@@ -1,0 +1,29 @@
+WebConnect Features für zukünftige WebConnect-Updates
+In Arbeit:
+Verbesserte Übersetzungen für diese Sprachen: Deutsch, Englisch, spanisch, französisch, italienisch und türkisch
+Bug beheben ui wenn man das webconnect auf ein kleineren bildschirm macht und dann wieder auf den großen
+Bug beheben dass automatische Softwareupdate-Nachrichten nicht funktionieren
+Bug beheben dass der Home-Button nicht funktioniert
+Ausstehend:
+- Perplexity AI, YouChat,  als unterstützter Chatbot
+- Überarbeitete MDM Settings
+- Man soll Cookies und Browserdaten löschen können
+- Wenn man einen Tab rauszieht soll der in einen neuen fenster sein und man soll den auch wieder in andere WebConnect-Fenster reinziehen können
+- Automatisches herunterladen von Softwareupdates
+- Translations mit Sprachdateien
+- Chronik
+- Plugins inkl. Plugin-IDE
+- Benutzersystem mit normalen Usern (inkl. User-Name und optionales Anmeldekennwort und folgenden Extra-Nutzern: Admin, Gast. Für den Admin-Benutzer ist ein Kennwort sehr empfohlen. Gast surft im Inkognito modus)
+- Bootloader (bootloader.exe), Recovery (recovery.exe), Anmeldefenster (wclogon.exe) und eigentlicher Browser (WebConnect.exe + dessen Dateien) in seperaten Dateien
+  - Bootloader prüft sich selbst, Hauptanwendung + Anmeldeprozess vor dem Start auf fehler und bei Bedarf auf Malware.
+  - Wird ein Fehler/Malware gefunden, wird eine Fehlermeldung angezeigt und das Recovery mode wird gestartet.
+  !!Bei Malwareprüfung beim Start kann der Startvorgang von WebConnect um einige Zeit dauern!!
+- Wechsel zwischen Dark- und White Mode
+- Modernere maybe runde Buttons
+- Animationen von Buttons, Textboxen und anderen Elementen, mit denen der Nutzer interagieren kann
+- Tab-Ordner
+- Favoriten
+- Hotkey-Editor
+- Webseiten-Blacklist in den Mobile Device Management Einstellungen
+- Ghost Tabs (unsichtbare Tabs)
+- Umstieg auf Chromium?

@@ -1,0 +1,354 @@
+Changelog
+v2025.05.27
+Türkisch:
+Der Text wurde maschinell übersetzt und kann von dem her Fehler enthalten.
+- Updated Components
+  - Frontend 4.0 --> 4.1
+    - FIXED BUGS
+	  - Language
+	    - Better translations for Deutsch, English, Espanol, Francais, Italiano, Türkce
+	  - User interface
+	    - A bug has been fixed that the ui layout is broken when you change the resolution or move from a smaller monitor to a bigger monitor.
+	  - Shortcuts
+	    - A bug has been fixed that the homepage button isn't working
+	  - Bootloader 2.1 --> 2.2
+	    - A bug has been fixed that the wrong version is displayed when starting webconnect
+	  - About dialog
+	    - Better displayed Version info
+  - WebView 1.0.3065.39 --> 1.0.3240.44
+  Im Normalfall wird die WebView aus Sicherheitsgründen automatisch aktualisiert, ohne dass du etwas davon mitbekommst.
+  In diesem Fall wird nur die Versionsnummer aktualisiert.
+  Wenn das nicht der Fall ist, sollte die neue WebView mit Hilfe des Updates installiert werden.
+    - Fehlerbehebungen
+      - Nur Runtime
+        - Es wurde ein Problem behoben, bei dem Downloads aus dem Standardbrowserframe nicht abgeschlossen wurden.
+        - Es wurde ein Problem behoben, bei dem der Pipename fälschlicherweise zurückgegeben wurde, was zu einem Absturz in einigen UWP-Apps führte.
+        - Erweiterungen werden in WebView2 nicht mithilfe von AddBrowserExtensionAsyncdeaktiviert, unabhängig davon, ob der Entwicklermodus aktiviert ist. (Problem 5113)
+        - Hintergrundaktualisierung der Netzwerkzeit deaktiviert.
+        - Es wurde behoben, dass das Download-Popup nicht angezeigt wurde, wenn target="_blank".
+        - Das HTML-Select-Element (<Auswählen>) wurde korrigiert, um es in WPF-Apps auswählbar zu machen.
+        - Die Navigation von innerhalb eines edge://crashes WebView2-Steuerelements wurde behoben.
+        - Mögliche Absturz- und Ui-Probleme beim Aufrufen der Windows-Anmeldeinformationen-Benutzeroberfläche über eine WebView2-instance wurden behoben.
+        - Es wurde ein Fehler behoben, bei dem Benutzer kein Eingabefeld mit Informationen zum automatischen Ausfüllen eingeben konnten.
+      - Promotions
+        - Die folgenden APIs wurden zu Stable heraufgestuft und sind jetzt in diesem Release SDK enthalten.
+
+        - Nachverfolgen des Navigationsverlaufs für geschachtelte iFrames (FrameCreatedEvent-API)
+        - Die FrameCreatedEvent-API unterstützt geschachtelte iFrames, z. B. das Aufzeichnen des Navigationsverlaufs für einen iframe der zweiten Ebene. Ohne diese API verfolgt WebView2 nur iFrames der ersten Ebene nach, bei denen es sich um die direkten untergeordneten iFrames des Standard Frames handelt. Mit dieser API kann Ihre App das Geschachtelte iframe-Erstellungsereignis abonnieren und der App Zugriff auf alle Eigenschaften, Methoden und Ereignisse von CoreWebView2Frame für den geschachtelten iframe gewähren.
+
+        - Verwenden Sie diese API, um die iframe-Nachverfolgung auf einer Seite zu verwalten, die mehrere Ebenen von iframes enthält. Sie können eine der folgenden Optionen nachverfolgen:
+
+        - Nur die Standard Seite und iFrames der ersten Ebene (Standardverhalten).
+        - Eine partielle WebView2-Rahmenstruktur mit bestimmten iFrames, die von Interesse sind.
+        - Die vollständige WebView2-Framesstruktur.
+
+AutoLaunch Protocols Preregistration 1.0.0.8 --> 1.0.0.9
+DomainActions 3.0.0.14
+Microsoft PKI Metadata 21.0.0.0 --> 22.0.0.1
+Subresource Filter 10.34.0.57 --> 10.34.0.80
+trustToken 2024.12.14.1 --> 2025.5.15.1
+Zxcvbn 3.1.0.0
+
+Microsoft.CodeAnalysis 4.12.0 --> 4.14.0
+Microsoft.CodeAnalysis.VisualBasic 4.12.0 --> 4.14.0
+System.Threading.Channels 9.0.2 --> 9.0.5
+Microsoft.Bcl.AsyncInterfaces 8.0.23.53103 --> 9.0.24.52809
+Microsoft.CodeAnalysis.4.12.0 -> Microsoft.CodeAnalysis.4.14.0
+Microsoft.CodeAnalysis.Analyzers.3.3.4 -> Microsoft.CodeAnalysis.Analyzers.3.11.0
+Microsoft.CodeAnalysis.Common.4.12.0 -> Microsoft.CodeAnalysis.Common.4.14.0
+Microsoft.CodeAnalysis.CSharp.4.12.0 -> Microsoft.CodeAnalysis.CSharp.4.14.0
+Microsoft.CodeAnalysis.CSharp.Workspaces.4.12.0 -> Microsoft.CodeAnalysis.CSharp.Workspaces.4.14.0
+Microsoft.CodeAnalysis.VisualBasic.4.12.0 -> Microsoft.CodeAnalysis.VisualBasic.4.14.0
+Microsoft.CodeAnalysis.VisualBasic.Workspaces.4.12.0 -> Microsoft.CodeAnalysis.VisualBasic.Workspaces.4.14.0
+Microsoft.CodeAnalysis.Workspaces.Common.4.12.0 -> Microsoft.CodeAnalysis.Workspaces.Common.4.14.0
+Microsoft.Web.WebView2.1.0.3065.39 -> Microsoft.Web.WebView2.1.0.3240.44
+System.Collections.Immutable.8.0.0 -> System.Collections.Immutable.9.0.0
+System.Composition.8.0.0 -> System.Composition.9.0.0
+System.Composition.AttributedModel.8.0.0 -> System.Composition.AttributedModel.9.0.0
+System.Composition.Convention.8.0.0 -> System.Composition.Convention.9.0.0
+System.Composition.Hosting.8.0.0 -> System.Composition.Hosting.9.0.0
+System.Composition.Runtime.8.0.0 -> System.Composition.Runtime.9.0.0
+System.Composition.TypedParts.8.0.0 -> System.Composition.TypedParts.9.0.0
+System.IO.Pipelines.8.0.0 -> System.IO.Pipelines.9.0.0
+System.Reflection.Metadata.8.0.0 -> System.Reflection.Metadata.9.0.0
+System.Threading.Channels.9.0.2 -> System.Threading.Channels.9.0.5
+Der Text wurde Maschinell übersetzt.
+
+v2025.02.25
+- Updated Components
+  - Frontend 3.1 --> 4.0
+	- NEW FUNCTIONS:
+		- Tabs
+			- You can add new Tabs from the TabControl context menu
+				- You have to:
+					- Right-Click on a opened Tab
+					- Select "New Tab"
+			- You can move the Tabs to left or right
+				- You have to:
+					- Right-Click on the focused tab or focus a tab that you want to move
+					- Select "Move to..."
+					- Select "...left" or "...right"
+				- Or
+					- Select "Navigation"
+					- Select "Move to..."
+					- Select "...left" or "...right"
+			- You can move the Tabs to a specific position
+				- You have to:
+					- Place your mouse pointer on the tab you want to move.
+					- Hold the left mouse button down while moving it to the position that you want.
+					- Leave the left mouse button and the tab will be moved to the position, where you leaved the left mouse button.
+		- WebView
+			- A bug has been fixed that the WebView is not showing correctly. This bug caused that some web contents aren't displayed.
+		- MagicAI Link
+			- A bug has been fixed that the MagicAI Link WebView isn't responding by pressing the MagicAI Link Button or "CTRL * ." This bug caused that you have to open the WebConnect settings that the MagicAI Link Window is responive.
+- hyphens-data-Version: 101.0.4906.0 --> 120.0.6050.0
+- Microsoft PKI Metadata-Version: 21.0.0.0
+- Subresource Filter Version: 10.34.0.55 --> 10.34.0.57
+- trustToken-Version: 2024.10.11.1 --> 2024.12.14.1
+
+v2025.02.16
+- Updated Components
+  - Frontend 3.0 --> 3.1
+    - Settings
+      - A bug has been fixed that caused that the user settings are deleted after an software update. Solution: The setting saver is saving the settings on the Windows Registry. Before this update, the settings has been saved in the program it self, which got overwritten by an software update.
+    MagicAI Link	
+      - A bug has been fixed that changing between different ChatBots is not working properly
+      - A bug has been fixed that the MagicAI Window is displayed and the application size is changing, that the MagicAI Window size isn't applying for this
+    - Commando interpreter
+      - A bug has been fixed that the applicaion isn't rebooting, when the user is entering the following command to the textbox: "cmd://reboot"
+  - Bootloader 2.0 --> 2.1
+    - New boot animation
+    - Bootloader version is now displayed in the about dialog 
+  - Edge WebView2 v131.0.2908.86 --> 133.0.3065.69
+    - Promotions
+      - Display WPF elements on the WebView2 level (WebView2CompositionControl)
+      Prevents WebView2CompositionControl from being the top-level WebView2 control in a WPF app and obfuscating all WPF elements. Microsoft.Web.WebView2.Wpf.WebView2CompositionControl is a drop-in replacement for the default WPF WebView2 control. Both implement the WebView2 control as WebView2CompositionControl and the Microsoft.Web.WebView2.Wpf.IWebView2 interface. Both are derived from FrameworkElement as follows:
+
+      FrameworkElement ->HwndHost ->WebView2.
+      FrameworkElement ->Control ->WebView2CompositionControl.
+      Background: If you create a Windows Presentation Foundation (WPF) app and use the WebView2 control, you may find that your app results in “airspace” issues where the WebView2 control is always displayed on top and all WPF elements in the same location are hidden, even if you try to specify the WPF elements that should be on top of the WebView2 control (using the visual structure order or z-index property, for example).
+
+      This problem occurs because the WPF control uses the WPF HwndHost to host the Win32 WebView2 control and HwndHost has a problem with the airspace.
+
+    - Fehlerbehebungen
+      - Runtime-only
+        - Fixed a regression where display changes could cause WebView2 to be rendered smaller than the app window.
+        - The missing “Close ‘ button has been added to the ’Download ” flyout.
+        - Fixed a race condition that occurred when the Web Request Response event never occurs. 
+      - SDK-only
+        - Fixed an issue in WPF WebView2CompositionControl where it is not displayed when initialized with size (0,0), e.g. when initialized in a TabItem of TabControl.
+  - System.Threading.Channels v9.0.0 --> v9.0.2		
+  - Microsoft.Web.WebView2.Core v1.0.2903.40 --> v1.0.3065.39
+  - Microsoft.Web.WebView2.WinForms v.1.0.2903.40 --> v1.0.3065.39
+   - Microsoft.Web.WebView2.Wpf v1.0.2903.40 --> v1.0.3065.39
+	
+v2024.12.27
+- Updated Components:
+  - Frontend: v2.0 --> v3.0
+    - NEW FUNCTIONS:
+      - MAGIC AI LINK
+
+        WHAT IS MAGIC AI LINK?
+        WITH MAGIC AI LINK, YOU CAN EASILY AND FAST ACCESS YOUR PREFERED AI CHATBOT.
+          THE CHATBOT WILL BE DOCKED AT THE RIGHT SIDE OF THE WINDOW, WHEN YOU OPEN IT.
+             - A button has been added to toggle an AI chatbot
+             - The hotkey "CTRL + ." does also toggle Magic AI Link
+             - You can program this Button by going to WebConnect-->Settings-->Magic AI Link. Supported Chatbots: 
+               - Google Gemini
+               - Microsoft Copilot
+               - ChatGPT
+    - BUG FIXES
+      - A bug has been fixed that the following hotkeys are not working in other apps, when WebConnect is running:
+        - ALT + E
+        - CTRL + D
+        - CTRL + E
+        - CTRL + K
+        - CTRL + L
+        - ALT + F
+        - CTRL + N
+        - CTRL + T
+        - CTRL + W
+        - ALT + S
+        - CTRL + TAB
+        - CTRL + SHIFT + TAB
+      - A bug has been fixed that the button "Close tab" at the menu toolbar is not working
+v2024.12.13
+- A bug has been fixed that could cause the WebConnect Installer/Updater to be detected as malware
+v2024.12.11
+- Updated Components:
+  - Frontend
+    - A bug has been fixed when setup a password for the mdm (mobile device management) mode, because the password setup dialog does not show correctly.
+     You can enable/disable the mdm (mobile device management) mode by clicking WebConnect/Settings/Software update/Click fast on the software version until a button "WebConnect Admin Software" appears.
+     - A bug has been fixed when showing the WebConnect Admin Software, because the WebConnect Admin Software does not show correctly, when the tab "designer values" is opened.
+     - A bug has been fixed when you press the ok button on a dialog that says that a link can't be opened.
+     - A bug has been fixed when you reboot the application, the mdm (moblie device management) settings will be cleared.
+     - A bug has been fixed when you open the browser settings, if you set the default search engine to Google, the default search engine will set to Bing.
+     - A bug has been fixed when you close a tab, the WebView instance, that startet with the tab, is not terminated and it is running at background.
+     - Adding hotkeys for quitting some menus
+     - Adding hotkeys for browser navigation
+     - A context menu has been added that can close tabs for devices without a middle mouse button
+     - Better debug output for developers
+  - Microsoft Edge WebView: 130.0.2849.39 --> 131.0.2903.86
+     - Promotions
+        - Control whether the screen capture UI is displayed (ScreenCaptureStarting event)
+        - A new ScreenCaptureStarting event has been added. This event is triggered whenever 
+          the webView2 and/or iframe corresponding to the CoreWebView2Frame (or one of its 
+          successor iframes) requests permission to use the screen capture API before displaying 
+          the UI. The app can then block the display of the UI or allow the display of the UI.
+      - Bug fixes
+        - Runtime only
+          - Allow the Download dialog box to receive initial focus on startup.
+
+v2024.11.07
+- Updated Components:
+  - Frontend
+    - Adjustments to Error Messages while booting WebConnect when WebConnect system files 
+      are missing or damaged
+    - Correction of version indicators of various WebConnect components
+    - Correction of the software version changelog
+  - Microsoft Edge WebView: 130.0.1823.32 --> 130.0.849.56
+    - Features
+      - Introduced an option to cancel the initial navigation in WebView2, to improve startup performance. 
+      - This change is disabled by default, and can be enabled by using the 
+        msWebView2CancelInitialNavigation feature flag.
+      - Introduced the feature flag msWebView2EnableDownloadContentInWebResourceResponseReceived, 
+        an an Experimental feature (rather than as a Stable feature). When this flag is enabled, this allows responses 
+        of navigations that become downloads to be available in WebResourceResponseReceived.
+      - Added support for C#/WinRT .NET 6+.
+    - Runtime and SDK
+      - Fixed a crash when .NET host object async methods return a null result
+      - Re-enabled the default behavior of SetUserAgent: by default, SetUserAgent is effective for cross-origin iframes.
+    - Runtime-only
+      - Fixed a WebView2 memory leak issue when the window is closed.
+      - Fixed an issue where ignoreMemberNotFoundError wasn't working for .NET objects
+      - Now returns a proper error code when CreateSharedBuffer is called with 0 buffer size. 
+      - Fixed an activation issue for the caret browsing dialog.
+      - Fixed an issue where the WebView2 Visual Hosting CursorChanged event wasn't firing for custom cursors.
+      - Fixed a bug where if the LaunchingExternalURIScheme event handler is attached, 
+        and the always remember checkbox is enabled, and the user selects this checkbox, the dialog is incorrectly displayed again.
+      - Fixed an issue where text edit controls in visual hosting would duplicate IME input when losing and then regaining focus.
+      - Fixed an issue where full-trust UWP apps couldn't display owned windows.
+      - Fixed a bug in owned-window activation logic for visual hosting.
+      - Disabled BreakoutBoxPreferCaptureTimestampInVideoFrame for WebView2 TextureStream.
+      - Fixed a regression where the WindowCloseRequested event only fires for first window.close() call.
+      - Fixed a regression where typed arrays in WinRT JavaScript projection could not be handled as IDispatch in the host.
+      ­- Fixed a bug where the autofill popup dismisses immediately and causes a focus change.
+      - Fixed a bug where WebView2 fails to load because of AppPolicyGetWindowingModel.
+      - Fixed an issue where the app window couldn't be controlled via system commands 
+        (such as Alt+F4 or Alt+Spacebar) when the focus was in WebView2 for Visual hosting mode.
+      - Fixed a bug in WebView2 UWP where the Find bar couldn't be clicked into from the host app.
+      - Fixed a regression where WebResourceRequested events crash on certain sites.
+      - Enabled the interactive dragging feature by default. See edge-webview-interactive-dragging in WebView2 browser flags.
+      - Disabled IsolateSandboxedIframes for WebView2.
+      - Fixed an issue where WebView creation fails when multiple instances are launched at the same time.
+      - Fixed a bug in WinRT JavaScript projection where caching existing properties in objects whose name 
+        contains Proxy or Function caused an error due to name collision.
+      - Fixed a bug where the WebView2 control became the wrong size after disconnecting and reconnecting a monitor.
+      - Fixed an issue where "mailto:" links leave an untitled popup window open, instead of automatically closing the popup window.
+      - Fixed an issue where focusing on a WebView2 control in WinAppSDK with the Windows "Scroll inactive windows" setting disabled 
+        caused scrolling to fail.
+      - Blocked edge://wallet in WebView2.
+      - Cleared the environment variable for default background color in .NET WebView2 controls after the controller has finished creation.
+      - Enabled accessibility support for Webview2 in visual hosting mode.
+      - Fixed a bug with removing a "web resource requested" filter for multiple sources when one of them is Document.
+      - Fixed a regression where DataList was not visible in WinUI or in other visually hosted WebView2 instances.
+      - Fixed a Download dialog focus issue when pressing Tab or Shift+Tab to switch into the Webview2 control.
+    - SDK-only
+      - Fixed an issue in the SDK causing erroneous <Platform> values in the .NET project platforms list.
+      - Adding the missing WinRT CoreWebView2Notification.VibrationPattern API. This WinRT API can 
+        be combined with the stable notification API promotion release notes; see "Web Notification" and 
+        NotificationReceived for WinRT, immediately above.
+      - Fixed an issue where KeyDown events from the WinForms WebView2 control didn't include the 
+        correct ModifierKeys information.
+      - Fixed x86 for WinRT C# projection.
+      - Made CreateCoreWebView2Environment and GetAvailableCoreWebView2BrowserVersionString 
+        more robust against potential race condition during Runtime update.
+      - Fixed x86 for WinRT C# projection.
+      - C# WinRT projection now works on UWP.
+      - Fixed an issue to ensure that GeneratedFilesDir no longer appears in Visual Studio for C# WinRT projection.
+      - Fixed an SDK dependency for .NET projects.
+      - Fixed a compatibility issue when calling GetAvailableBrowserVersionString() with an older WebView2Loader.dll.
+      - Fixed issues when compiling wv2winrt-generated code with the cpp20 and /permissive- options.
+      - Added the .NET 8 TargetFramework for C# WinRT, enabled AOT (ahead-of-time) compatibility, and disabled 
+        runtime marshalling.
+      - Fixed an SDK dependency for .NET projects.
+      - Fixed Arm64 incompatibility with WindowsAppSDK 1.6.
+      - Removed extra WebView2Loader.dll in WinAppSDK case.
+      - Using CoreWebView2.AddWebResourceRequestedFilter without a 
+        CoreWebView2WebResourceRequestSourceKinds parameter is now deprecated. 
+        See the .NET CoreWebView2.AddWebResourceRequestedFilter Method.
+      - Using CoreWebView2.AddWebResourceRequestedFilter without a 
+        CoreWebView2WebResourceRequestSourceKinds parameter is now 
+        deprecated. See the .NET CoreWebView2.AddWebResourceRequestedFilter Method.
+      - Added the .NET 8 TargetFramework for C# WinRT, enabled AOT (ahead-of-time) 
+        compatibility, and disabled runtime marshalling.
+    - Promotions
+      - Support for the Fluent Style Overlay Scrollbar.
+      - Updated the WebMessageObjects API to allow injecting DOM objects into WebView2 content that's constructed via the app, 
+        and via the CoreWebView2.PostWebMessage API in the other direction. Added a new web object type to represent a file 
+        system handle that can be posted to the web content to provide it with filesystem access.
+      - Added SaveAs APIs that allow you to programmatically perform the Save as operation. You can use these APIs to 
+        block the default Save as dialog, and then either save silently, or build your own UI for Save as. These APIs pertain 
+        only to the Save as dialog, not the Download dialog, which continues to use the existing Download APIs.
+      - Added support for Web Notification, for non-persistent notifications. The NotificationReceived event for 
+        CoreWebView2 controls web notification handling, allowing customization or suppression by the host app. 
+        Unhandled notifications default to WebView2's UI.
+      - Updated the WebMessageObjects API to allow injecting DOM objects into WebView2 content that's 
+      - constructed via the app, and via the CoreWebView2.PostWebMessage API in the other direction. 
+      - Added a new web object type (CoreWebView2FileSystemHandle) to represent a file system handle 
+      - that can be posted to the web content to provide it with filesystem access.
+      - Added support for Web Notification, for non-persistent notifications. 
+        The NotificationReceived event for CoreWebView2 controls web notification handling, allowing 
+        customization or suppression by the host app. Unhandled notifications default to WebView2's UI.
+      - Added SaveAs APIs that allow you to programmatically perform the Save as operation. You can 
+        use these APIs to block the default Save as dialog, and then either save silently, or build your own 
+        UI for Save as. These APIs pertain only to the Save as dialog, not the Download dialog, which 
+        continues to use the existing Download APIs.
+      - Added a new ScreenCaptureStarting event. This event is raised whenever the WebView2 
+        and/or iframe that corresponds to the CoreWebView2Frame (or to any of its descendant iframes) 
+        requests permission to use the Screen Capture API before the UI is shown. The app can then 
+        block the UI from being displayed, or allow the UI to be displayed.
+      - Added a new SaveFileSecurityCheckStarting event. Your app can register a handler on this event 
+        to get the file path, filename extension, and document origin URI information. You can then 
+        apply your own rules to do actions such as the following:
+        - Allow saving the file without presenting a default security-warning UI about the file-type policy.
+        - Cancel the saving.
+        - Create your own UI to manage runtime file-type policies.
+    - APIs
+      - Added a new SaveFileSecurityCheckStarting event. As a developer, you can register a handler on this event to get the file path, 
+        filename extension, and document origin URI information. Then you can apply your own rules to do actions such as the following:
+        - Allow saving the file without presenting a default security-warning UI about the file-type policy.
+        - Cancel the saving.
+        - Create your own UI to manage runtime file-type policies.
+      - Added a new ScreenCaptureStarting event. This event is raised whenever the WebView2 and/or iframe that corresponds to the 
+        CoreWebView2Frame (or to any of its descendant iframes) requests permission to use the Screen Capture API before the UI is 
+        shown. As a developer, you can then choose to block the UI from being displayed, or allow the UI to be displayed.
+      - Added a new GetComICoreWebView2 method to the CoreWebView2 .NET class that enables you to convert a 
+        CoreWebView2 between .NET and COM. Added a new WinRT interface that enables you to convert a CoreWebView2 
+        between WinRT and COM. This allows you to interoperate between libraries that are written in different languages.
+      - Added new Throttling Controls APIs which allows for efficient resource management by allowing you to throttle 
+      - JavaScript timers. This is helpful in scenarios where a WebView2 control needs to remain visible, but needs to 
+      - consume fewer resources (such as when the user isn't interacting with the content). These Throttling Controls 
+      - APIs allow you to:
+        - Customize script timers (setTimeout and setInterval) throttling under different page states (foreground, 
+          background, and background with intensive throttling).
+        - Throttle script timers in select hosted iframes.
+      - Added a new RestartRequested event. The RestartRequested event is raised whenever WebView2 needs 
+        to restart to apply updates or configuration changes. You can use this API to detect when WebView2 
+        needs to restart, and take appropriate actions. The Priority property of the RestartRequested event 
+        arguments indicates the priority of the restart request:
+        - High indicates that the app should prompt users to restart as soon as possible.
+        - Normal indicates that the app should remind users to restart, on a best-effort basis.
+  - Microsoft PKI Metadata version: 13.0.0.0 --> 14.0.0.1
+  - Snapshots version: 126.0.2592.113 --> 129.0.2792.89
+  - Subresource Filter version: 10.34.0.54 -->  10.34.0.55
+  - trustToken version: 2024.8.165 --> 2024.10.1
+  - System.Threading.Channels version: 7.0.0  --> 8.0.0
+v2024.11.03
+- Frontend
+  - A bug with the software update tool has been fixed: 
+    When you click "Search for software updates", it says "Update for WebConnect available and ready to download,
+    but the newest version is already installed on your device.
+
+v. 2024.09.01
+- Erste Softwareversion
