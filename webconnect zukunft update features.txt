@@ -1,11 +1,11 @@
 WebConnect Features für zukünftige WebConnect-Updates
 In Arbeit:
-Verbesserte Übersetzungen für diese Sprachen: Deutsch, Englisch, spanisch, französisch, italienisch und türkisch
-Bug beheben ui wenn man das webconnect auf ein kleineren bildschirm macht und dann wieder auf den großen
-Bug beheben dass automatische Softwareupdate-Nachrichten nicht funktionieren
-Bug beheben dass der Home-Button nicht funktioniert
+- Ein Bug wird behoben, der dazu führt, dass wenn man aus einer anderen App einen Link öffnet, ein zusätzlicher Tab mit der vom Benutzer eingestellten Startseite geöffnet wird.
 Ausstehend:
+- Tabs speichern (nach Start soll gefragt werden ob die Tabs wiederhergestellt werden sollen)
 - Perplexity AI, YouChat,  als unterstützter Chatbot
+- Favoritenleiste
+- Smart Reload von Webseiten für Entwickler (Webseite wird automatisch neu geladen sobald Änderungen an der Datei sind)
 - Überarbeitete MDM Settings
 - Man soll Cookies und Browserdaten löschen können
 - Wenn man einen Tab rauszieht soll der in einen neuen fenster sein und man soll den auch wieder in andere WebConnect-Fenster reinziehen können
@@ -22,8 +22,8 @@ Ausstehend:
 - Modernere maybe runde Buttons
 - Animationen von Buttons, Textboxen und anderen Elementen, mit denen der Nutzer interagieren kann
 - Tab-Ordner
-- Favoriten
 - Hotkey-Editor
 - Webseiten-Blacklist in den Mobile Device Management Einstellungen
 - Ghost Tabs (unsichtbare Tabs)
+
 - Umstieg auf Chromium?
